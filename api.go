@@ -1,6 +1,7 @@
 package api
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -14,8 +15,6 @@ import (
 	"bitbucket.org/ww/goautoneg"
 
 	"github.com/pborman/uuid"
-
-	"golang.org/x/net/context"
 )
 
 const (
