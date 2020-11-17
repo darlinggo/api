@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"bitbucket.org/ww/goautoneg"
+	"github.com/adjust/goautoneg"
 
 	"github.com/pborman/uuid"
 )
